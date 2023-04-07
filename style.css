@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lato:ital,wght@1,700&display=swap');
 body{
-    background: rgb(0, 0, 0);
+    background-color: black;
+    height: 100vh;
+    width: 100%;
 }
 *{
     margin: 0;
@@ -11,15 +13,6 @@ nav{
 font-family: 'Lato', sans-serif;   
 
 }
-/* nav ul{
-    display: flex;
-    list-style-type: none;
-    height: 65px;
-    align-items: center;
-}
-nav ul li{
-    padding: 0 12px;
-} */
 .logo{
     display: flex;
     align-items: center;
@@ -27,10 +20,17 @@ nav ul li{
     font-size: 1.1rem;
 }
 .slogan{
-    color: rgb(230, 42, 13);
+    color: rgb(107, 232, 251);
     text-align: center;
     margin-top: 20px;
     margin-bottom: 40px;
+}
+/* ---------------------------------------------------ABOUT----------------------------------------- */
+#about .card{
+    border: 2px solid black;
+    margin-top: 100px;
+    background: linear-gradient(rgb(0, 179, 255),pink);
+    color: rgb(10, 84, 150);
 }
 .bottom{
     position: sticky;
@@ -75,6 +75,11 @@ flex-direction: column;
     color: blueviolet;
     
 }
+#us{
+    color: rgb(107, 232, 251);
+    text-align: center;
+    margin-top: 70px;
+}
 .songlist{
     display: flex;
     text-align: center;
@@ -85,7 +90,7 @@ flex-direction: column;
    display: flex;
    color: rgb(255, 255, 255);
    border: 1px solid white;
-   width: 100%;
+   /* width: 100%; */
    background-color: black;
    margin: 12px 5px;
    justify-content: space-between;
@@ -94,7 +99,8 @@ flex-direction: column;
    border-radius: 20px;
 }
 .songitem:hover{
-    background: linear-gradient(rgb(141, 22, 246),rgb(12, 176, 231));
+    /* background: linear-gradient(rgb(141, 22, 246),rgb(12, 176, 231)); */
+    background: linear-gradient(rgb(246, 70, 22),rgb(241, 220, 22));
     color: white;
     border: 2px solid white;
 }

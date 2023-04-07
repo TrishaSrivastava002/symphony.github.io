@@ -1,7 +1,7 @@
-console.log("Welcome To Spotify");
+console.log("Welcome To Symphony");
 //initialize the variable
 let songindex=1;
-let audioelement=new Audio('A_Thousand_Years.mp3');
+let audioelement=new Audio('songs1.mp3');
 let masterplay=document.getElementById('masterplay');
 let myprogress=document.getElementById('progress');
 let gif=document.getElementById('gif');
@@ -12,7 +12,7 @@ let songs=[
 
     {songname:"Dandelions - By Ruth B",filepath:"songs2.mp3",coverpath:"song2.jpg"},
 
-    {songname:"How Long - By Charlie Puth",filepath:"songs3.mp3",coverpath:"song3.jpg"},
+    {songname:"How Long - By Charlie Puth",filepath:"songs3.mp3",coverpath:"song11.jpg"},
 
     {songname:"Levitating - By Dua Lipa",filepath:"songs4.mp3",coverpath:"song4.jpg"},
 
