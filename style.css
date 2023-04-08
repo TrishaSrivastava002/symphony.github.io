@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lato:ital,wght@1,700&display=swap');
 body{
     background-color: black;
-    /* background: linear-gradient(rgb(255, 255, 255),rgb(68, 203, 230)); */
+    /* background-image: url(bgc1.jpg); */
+    background-size: cover;
+    background-position: center;
+    position: relative;
     height: 100vh;
     width: 100%;
 }
@@ -35,7 +38,7 @@ font-family: 'Lato', sans-serif;
 }
 .bottom{
     position: sticky;
-    height: 75px;
+    height: 135px;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -45,7 +48,7 @@ flex-direction: column;
 
 }
 .icons{
-    margin-top: 10px;
+    margin-top: 65px;
     cursor: pointer;
 }
 .container{
@@ -87,7 +90,7 @@ flex-direction: column;
     align-items: center;
 }
 .songitem{
-   height: 50px;
+   height: 60px;
    display: flex;
    color: rgb(255, 255, 255);
    border: 1px solid white;

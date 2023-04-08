@@ -8,7 +8,7 @@ let gif=document.getElementById('gif');
 let songitems=Array.from(document.getElementsByClassName('songitem'));
 let mastersongname= document.getElementById('mastersongname');
 let songs=[
-    {songname:"A Thousand Years - By Christina Perri",filepath:"songs1.mp3",coverpath:"song1.jpg"},
+    {songname:"Thousand Years - By Christina Perri",filepath:"songs1.mp3",coverpath:"song1.jpg"},
 
     {songname:"Dandelions - By Ruth B",filepath:"songs2.mp3",coverpath:"song2.jpg"},
 
@@ -16,7 +16,7 @@ let songs=[
 
     {songname:"Levitating - By Dua Lipa",filepath:"songs4.mp3",coverpath:"song4.jpg"},
 
-    {songname:"One Woman Army - By Porceline Black",filepath:"songs5.mp3",coverpath:"song5.jpeg"},
+    {songname:"1 Woman Army - By Porceline Black",filepath:"songs5.mp3",coverpath:"song5.jpeg"},
 
     {songname:"Run Free - By Deep Chills",filepath:"songs6.mp3",coverpath:"song6.jpg"},
 
@@ -26,7 +26,7 @@ let songs=[
 
     {songname:"Unstoppable - By Sia",filepath:"songs9.mp3",coverpath:"song9.jpg"},
 
-    {songname:"We Belong Together - By Mariah Carey",filepath:"songs10.mp3",coverpath:"song10.jpg"}
+    {songname:"Together - By Mariah Carey",filepath:"songs10.mp3",coverpath:"song10.jpg"}
 ]
 
 songitems.forEach((element,i)=>{
